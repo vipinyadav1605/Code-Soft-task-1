@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width: 92vw; */
+    /* height: 92vh; */
+    margin: 4vh 4vw;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+li:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: #850a7a;
+    font-size: 20px;
+}
+.head{
+    
+    color: #5d16d6;
+    box-sizing: border-box;
+}
+header nav ul{
+      position: relative;
+      left: 80px;
+      
+}
+header nav button{
+      position: absolute;
+      right: 4vw; 
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(89, 0, 255);
+      color: rgb(234, 241, 237);
+}
+main{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    width: 46vw;
+}
+.left p{
+  color: rgb(0, 102, 255);
+  font-weight: 100;
+}
+.heading{
+     margin-bottom: 25px;
+}
+.left .heading h1{
+    font-size: 55px;
+    color: #27b0b9;
+}
+h1 span{
+    
+    color: rgb(33, 161, 54);
+}
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(89, 0, 255);
+    color: white;
+    width: fit-content;
+    margin-top: 20px;
+}
+button:hover{
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.right{
+   width: 46vw;
+   
+}
+.right img{
+    padding-top: 10vh;
+    height: 65vh;
+    width: 60vw;
+}
+.about{
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 35px;
+    color: rgb(33, 161, 54);
+}
+.about p{
+    font-size: 20px;
+    padding: 10px 0px 10px 0px; 
+    width: 70vw;
+    color: rgb(0, 102, 255);
+}
+.git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.git h1{
+    font-size: 40px;
+    color: rgb(0, 102, 255);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    width: 30vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius:20px ;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+ border-radius:20px ;
+}
+.git button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #276bb9;
+}
+.footer{
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-around;
+}
+.footer h2{
+    margin: 10px;
+    color: rgb(33, 161, 54);
+}
+.footer p{
+    margin: 10px;
+}
+.footer p:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(89, 0, 255);
+    font-size: 16px;
+}
+#Support{
+    color: rgb(33, 161, 54);
+    font-size: 21px;
+    font-weight: 600;
+}
+#Support:hover{
+    color: rgb(89, 0, 255);
+}
+.Copy{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+}
